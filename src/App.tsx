@@ -6,7 +6,7 @@ import HomePage from "./pages/home/HomePage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/digistar-oca-29">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <div className="flex flex-1">
