@@ -3,6 +3,7 @@ import "./index.css";
 import Navbar from "./components/layout/Navbar";
 import Sidebar from "./components/layout/Sidebar";
 import HomePage from "./pages/home/HomePage";
+import AboutPage from "./pages/about/AboutPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <main className="flex-1 p-8">
             <Routes>
               <Route path="/" element={<HomePage />} />
+              <Route path="/about" element={<AboutPage />} />
             </Routes>
           </main>
         </div>
