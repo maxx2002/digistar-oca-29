@@ -1,25 +1,14 @@
-import { Link } from "react-router-dom";
+import { Bell } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <nav className="p-4 text-white bg-blue-600">
-      <ul className="flex space-x-4">
-        <li>
-          <Link to="/" className="hover:underline">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/about" className="hover:underline">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="/contact" className="hover:underline">
-            Contact
-          </Link>
-        </li>
-      </ul>
+    <nav className="fixed flex items-center justify-between w-full px-16 py-4 bg-white border-b border-neutral-400">
+      <img
+        src="/digistar-oca-29/images/logo/logo.png"
+        alt="Logo"
+        className="h-8"
+      />
+      <Bell className="text-blue-500" />
     </nav>
   );
 };
