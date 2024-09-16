@@ -44,9 +44,9 @@ const Sidebar = () => {
             <div className="flex items-center justify-center text-xl text-white bg-blue-500 rounded-full size-10">
               S
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col mb-0.5">
               <h2 className="font-medium">Samantha</h2>
-              <p className="text-xs">Samantha12@gmail.com</p>
+              <p className="text-xs">samantha12@gmail.com</p>
             </div>
           </div>
         </div>
